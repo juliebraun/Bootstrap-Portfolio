@@ -1,0 +1,168 @@
+html {
+	min-height: 100%;
+	position: relative;
+}
+body { 
+	background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/hip-square.png");
+	margin: 0;
+ 	margin: 0 0 100px; /* bottom = footer height */
+}
+nav {
+	font-family: "Georgia", "Times", "Times New Roman", "serif";
+	padding-right: 15px;
+}
+.navbar {
+/*	padding-bottom: 50px;
+*/	min-height: 80px;
+}
+
+.aboutme {
+	background-color: #fff;
+	color: #777777;
+	font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+}
+.aboutme h1 {
+	color: #4aaaa5;
+	font-family: "Georgia", "Times", "Times New Roman", "serif";
+
+}
+.connectwithme h2 {
+	color: #4aaaa5;
+	font-family: "Georgia", "Times", "Times New Roman", "serif";
+
+}
+.connectwithme {
+	background-color: #fff;
+	min-height: 100%;
+	position: relative;
+}
+.img-responsive {
+	width: 100%;
+	margin-bottom: 10px;
+	margin-right: 10px;
+
+}
+.maincontent {
+	position: relative;
+	padding: 20px;
+	color: #777777;
+
+}
+.aboutcontent p {
+	font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+
+}
+.footer {
+	height: 70px;
+	background-color: #666666;
+	color: #dcdcdc;
+	position: absolute;
+	width: 100%;
+	font-size: 14px
+/*	line-height: 50px;
+*/	text-align: center;
+	border-top-style: solid;
+	border-top-width: 10px;
+	border-top-color: #4aaaa5;
+    left: 0;
+    bottom: 0;
+}
+.navbar-brand {
+	margin: 0;
+	color: #fff;
+	font-size: 28px;
+	font-style: "bold";
+	font-weight: 900
+	width: 250px!important;
+	height: 100%;
+	background-color: #4aaaa5;
+	float: left;
+	text-align: center;
+	line-height: 100px;
+	margin-left: 100px!important;
+/*	margin-bottom: -50px!important;
+*/}
+.container {
+	margin-bottom: 20px;
+}
+ul {
+/*	min-height: 100px; 
+*/	float: right;
+/*	margin-right: 250px;
+*/	text-align: center;
+/*	border-spacing: 50px;
+*/	color: #777777;
+	font-size: 16px;
+	padding-top: 40px;
+}
+
+#portfolio {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.allboxes p {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	height:40px;
+	width: 254px;
+	background-color: #4aaaa5;
+	z-index: 1
+	color: #fff;
+	font-size: 24px;
+	padding: 8px;
+	margin-top: 90px;
+	text-align: center;
+}
+#nature {
+	float: left;
+	margin-top: 10px;
+	background: url("http://lorempixel.com/output/nature-q-c-640-480-1.jpg");
+	background-size: 100%;
+	background-height: 170px;
+	background-width: 250px;
+	margin-bottom: 30px;
+	color: #fff;
+	font-size: 24px;
+	z-index: 2
+}
+#animals {
+	float: right;
+	margin-top: 10px;
+	background: url("http://lorempixel.com/output/animals-q-c-640-480-1.jpg");
+	background-size: 100%;
+	height: 170px;
+	width: 270px;
+	margin-bottom: 30px;
+	color: #fff;
+	font-size: 24px;
+}
+#technics {
+	float: left;
+	background: url("http://lorempixel.com/output/technics-q-c-640-480-6.jpg");
+	background-size: 100%;
+	height: 170px;
+	width: 270px;
+	margin-bottom: 30px;
+	color: #fff;
+	font-size: 24px;
+	z-index: 2;
+}
+#transport {
+	float: right;
+	background: url("http://lorempixel.com/output/transport-q-c-640-480-4.jpg");
+	background-size: 100%;
+	height: 170px;
+	width: 270px;
+	margin-bottom: 30px;
+	color: #fff;
+	font-size: 24px;
+}
+#food {
+	float: left;
+	background: url("http://lorempixel.com/output/food-q-c-640-480-8.jpg");
+	background-size: 100%;
+	height: 170px;
+	width: 270px;
+	margin-bottom: 30px;
+	color: #fff;
+	font-size: 24px;
+}
