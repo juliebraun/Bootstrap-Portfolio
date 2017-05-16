@@ -9,13 +9,23 @@ body {
 }
 nav {
 	font-family: "Georgia", "Times", "Times New Roman", "serif";
-	padding-right: 15px;
+	/*padding-right: 15px;*/
+	background-color: #fff;
 }
 .navbar {
-/*	padding-bottom: 50px;
-*/	min-height: 80px;
+	min-height: 80px;
 }
-
+.collapse li {
+	color: #777777;
+}
+#customnav {
+	background-color: #fff;
+	background-image: none;
+	border-color: #fff;
+	}
+.collapse a {
+	color: #777777;
+}
 .aboutme {
 	background-color: #fff;
 	color: #777777;
@@ -29,12 +39,16 @@ nav {
 .connectwithme h2 {
 	color: #4aaaa5;
 	font-family: "Georgia", "Times", "Times New Roman", "serif";
-
+	text-align: center;
+}
+.connectwithme a {
+	margin: inherit;
 }
 .connectwithme {
 	background-color: #fff;
 	min-height: 100%;
 	position: relative;
+	padding-bottom: 10px;
 }
 .img-responsive {
 	width: 100%;
@@ -103,66 +117,17 @@ ul {
 .allboxes p {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	height:40px;
-	width: 254px;
 	background-color: #4aaaa5;
 	z-index: 1
 	color: #fff;
 	font-size: 24px;
 	padding: 8px;
-	margin-top: 90px;
 	text-align: center;
 }
-#nature {
-	float: left;
-	margin-top: 10px;
-	background: url("http://lorempixel.com/output/nature-q-c-640-480-1.jpg");
-	background-size: 100%;
-	background-height: 170px;
-	background-width: 250px;
-	margin-bottom: 30px;
-	color: #fff;
-	font-size: 24px;
-	z-index: 2
+
+.naturebox a {
+	width: 100%;
 }
-#animals {
-	float: right;
-	margin-top: 10px;
-	background: url("http://lorempixel.com/output/animals-q-c-640-480-1.jpg");
-	background-size: 100%;
-	height: 170px;
-	width: 270px;
-	margin-bottom: 30px;
-	color: #fff;
-	font-size: 24px;
-}
-#technics {
-	float: left;
-	background: url("http://lorempixel.com/output/technics-q-c-640-480-6.jpg");
-	background-size: 100%;
-	height: 170px;
-	width: 270px;
-	margin-bottom: 30px;
-	color: #fff;
-	font-size: 24px;
-	z-index: 2;
-}
-#transport {
-	float: right;
-	background: url("http://lorempixel.com/output/transport-q-c-640-480-4.jpg");
-	background-size: 100%;
-	height: 170px;
-	width: 270px;
-	margin-bottom: 30px;
-	color: #fff;
-	font-size: 24px;
-}
-#food {
-	float: left;
-	background: url("http://lorempixel.com/output/food-q-c-640-480-8.jpg");
-	background-size: 100%;
-	height: 170px;
-	width: 270px;
-	margin-bottom: 30px;
-	color: #fff;
-	font-size: 24px;
-}
+.image-wrap, .image-container, .img-text {
+	position: relative;
+	}
